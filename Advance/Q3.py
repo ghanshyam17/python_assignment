@@ -3,7 +3,7 @@ def JtoI(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
         corrected_content = content.replace("J", "I")
-        corrected_content = content.replace("j", "i")
+        corrected_content = corrected_content.replace("j", "i")
 
     return corrected_content
 
